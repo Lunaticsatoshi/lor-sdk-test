@@ -95,7 +95,13 @@ export default class Client {
     return (await response.json()) as T;
   }
 
+  /*
+   * LOR API endpoints
+   */
   public readonly movies = {
+    /*
+     * List all movies
+     */
     getMovies: async (): Promise<ResponseBody> => {
       return await this.request<ResponseBody>({
         method: getMovies.method,
@@ -119,6 +125,9 @@ export default class Client {
       });
     },
 
+    /*
+     * Get a movie by movie Id
+     */
     getMovieById: async (id: string): Promise<ResponseBody> => {
       return await this.request<ResponseBody>({
         method: getSingleMovieById.method,
@@ -127,6 +136,9 @@ export default class Client {
       });
     },
 
+    /*
+     * Get a movie quote by movie Id
+     */
     getMovieQuote: async (id: string): Promise<ResponseBody> => {
       return await this.request<ResponseBody>({
         method: getSingleMovieQuote.method,
