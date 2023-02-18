@@ -7,7 +7,7 @@ describe('test v2 client', () => {
   beforeEach(() => {
     client = new Client({
       baseUrl: 'https://the-one-api.dev/v2',
-      apiKey: 'EQzMH8wocdKIqoo_JQsX',
+      apiKey: '',
     });
   });
 
