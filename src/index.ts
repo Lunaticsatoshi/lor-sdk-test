@@ -1,0 +1,36 @@
+import {
+  AuthHeader,
+  ClientOptions,
+  GetMovieParameters,
+  GetMoviePathParameters,
+  IdRequest,
+  Method,
+  Movie,
+  Pagination,
+  QueryParams,
+  Quote,
+  RequestParameters,
+  ResponseBody,
+  ResponseType,
+  SortOrder,
+  SuccessStatus,
+} from './types';
+
+export type {
+  AuthHeader,
+  ClientOptions,
+  RequestParameters,
+  Method,
+  QueryParams,
+  SuccessStatus,
+  ResponseType,
+  IdRequest,
+  GetMoviePathParameters,
+  GetMovieParameters,
+  Pagination,
+  SortOrder,
+  Movie,
+  Quote,
+  ResponseBody,
+};
+export { default as Client } from "./Client"
