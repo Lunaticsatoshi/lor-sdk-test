@@ -29,12 +29,14 @@ export default class Client {
    *
    * @param path
    * @param method
+   * @param apiKey
    * @param query
    * @param body
+   * @param maxRetries
    * @returns
    */
 
-  public async request<T>({
+  private async request<T>({
     path,
     method,
     apiKey,
