@@ -14,7 +14,7 @@ describe('test v2 client', () => {
   it("Constructs without throwing", () => {
     new Client({
       baseUrl: 'https://the-one-api.dev/v2',
-      apiKey: 'EQzMH8wocdKIqoo_JQsX',
+      apiKey: '',
     });
   })
 
