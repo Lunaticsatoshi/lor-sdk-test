@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@lunaticsatoshi/lor-sdk-test@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@lunaticsatoshi/lor-sdk-test/-/lor-sdk-test-1.0.2.tgz#357112f62605165089c01a35c33394c469779253"
-  integrity sha512-MkbFhAwbjMDtLIInAZ6ScrhQ+tzODYFOHTavOQ1dqAOxpz2E4nr8HxRkxJRVZE4uAr1xQeOzp8bbTt+tRKkT3A==
+"@lunaticsatoshi/lor-sdk-test@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@lunaticsatoshi/lor-sdk-test/-/lor-sdk-test-1.0.3.tgz#ad5c2f539beb872359a9f115068e93526d5d59d5"
+  integrity sha512-Pqaar39KswPwkParMKLdcWVcNKXPnVl8IqKVONo/nqQRrAuLaB6X4kPt2lYdAA6quvBJWcyOfpTrD80fXb1aOQ==
   dependencies:
     isomorphic-unfetch "^4.0.2"
 
