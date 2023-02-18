@@ -26,8 +26,9 @@ const { Client } = require("@lunaticsatoshi/lor-sdk-test")
 import { Client } from "@lunaticsatoshi/lor-sdk-test"
 
 // Initializing a client
-const notion = new Client({
-  auth: process.env.NOTION_TOKEN,
+const client = new Client({
+  apiKey: process.env.API_TOKEN,
+  baseUrl: process.env.BASE_URL
 })
 ```
 
