@@ -132,6 +132,7 @@ yarn build
 
 ### Testing
 
+> Add your api key to client in the client.test.ts file before running test
 ```
 yarn test
 ```
