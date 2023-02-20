@@ -9,6 +9,6 @@
   "author": "Lunaticsatoshi",
   "license": "MIT",
   "dependencies": {
-    "@lunaticsatoshi/lor-sdk-test": "^1.0.3"
+    "@lunaticsatoshi/lor-sdk-test": "^1.0.5"
   }
 }
