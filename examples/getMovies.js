@@ -1,5 +1,5 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-// const {Client} = require('@lor-sdk-test/client');
+// const {Client} = require('@lunaticsatoshi/lor-sdk-test');
 import { Client } from '@lunaticsatoshi/lor-sdk-test';
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 // const dotenv = require('dotenv');
